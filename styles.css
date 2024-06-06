@@ -19,6 +19,53 @@
   --bg-color: #696969;
 }
 
+.section-bg {
+  min-height: calc(100vh - 85px);
+  background-color: var(--secondary-color);
+  background-size: cover;
+  background-position: center;
+  padding: 0 5%;
+}
+
+.section-head2 {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 30px;
+}
+
+.section-head3 {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 25px 0 5px 0;
+  font-size: 25px;
+  border-top: 1px solid var(--primary-color);
+}
+
+.section-par {
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* https://css-tricks.com/almanac/selectors/f/first-letter/ */
+.section-par::first-letter {
+  font-size: 222%;
+  color: var(--primary-color);
+}
+
+.par-center {
+  text-align: center;
+}
+
+.history-wrapper {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 /*********************************************************************************************
 ************************************ HEADER + NAVIGATION *************************************
 *********************************************************************************************/
@@ -26,7 +73,7 @@
 header {
   display: flex;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: #000;
   border-bottom: 1px solid var(--primary-color);
   height: 85px;
 }
@@ -126,6 +173,29 @@ nav a:hover {
   100% {
     transform: translateY(-30px);
   }
+}
+
+/*********************************************************************************************
+******************************************* HISTORY *****************************************
+*********************************************************************************************/
+
+.history-logo-wrapper {
+  margin: 0 auto;
+  width: 300px;
+  padding: 25px 0 20px 0;
+}
+
+.history-logo-wrapper img {
+  width: 100%;
+}
+
+.history-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.history-list li {
+  width: 50%;
 }
 
 /*********************************************************************************************
