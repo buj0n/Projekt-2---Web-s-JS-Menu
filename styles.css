@@ -64,7 +64,8 @@
 
 .history-wrapper,
 .slytherin-wrapper,
-.news-wrapper {
+.news-wrapper,
+.student-wrapper {
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -212,7 +213,13 @@ nav a:hover {
 .news-logo img {
   width: 100%;
 }
-
+.news-heading {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 25px 0 5px 0;
+  font-size: 25px;
+  border-top: 1px solid var(--primary-color);
+}
 .news-content {
   display: flex;
   align-items: center;
