@@ -63,7 +63,8 @@
 }
 
 .history-wrapper,
-.slytherin-wrapper {
+.slytherin-wrapper,
+.news-wrapper {
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -211,6 +212,44 @@ nav a:hover {
 .slytherin-logo img {
   width: 100%;
 }
+
+/*********************************************************************************************
+******************************************* NEWS *********************************************
+*********************************************************************************************/
+
+.news-logo {
+  margin: 0 auto;
+  width: 150px;
+  padding: 25px 0 20px 0;
+}
+
+.news-logo img {
+  width: 100%;
+}
+
+.news-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.news-image {
+  height: 180px;
+}
+
+.news-image img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.date,
+.author {
+  color: var(--primary-color);
+  text-align: right;
+  padding: 10px 0;
+}
+
 /*********************************************************************************************
 ******************************************* FOOTER ******************************************
 *********************************************************************************************/
