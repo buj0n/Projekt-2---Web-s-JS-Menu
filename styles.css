@@ -199,20 +199,6 @@ nav a:hover {
 .history-list li {
   width: 50%;
 }
-
-/*********************************************************************************************
-******************************************* SLYTHERIN ****************************************
-*********************************************************************************************/
-.slytherin-logo {
-  margin: 0 auto;
-  width: 300px;
-  padding: 25px 0 20px 0;
-}
-
-.slytherin-logo img {
-  width: 100%;
-}
-
 /*********************************************************************************************
 ******************************************* NEWS *********************************************
 *********************************************************************************************/
@@ -248,6 +234,85 @@ nav a:hover {
   color: var(--primary-color);
   text-align: right;
   padding: 10px 0;
+}
+
+/*********************************************************************************************
+******************************************* SLYTHERIN ****************************************
+*********************************************************************************************/
+
+.slytherin-logo {
+  margin: 0 auto;
+  width: 300px;
+  padding: 25px 0 20px 0;
+}
+
+.slytherin-logo img {
+  width: 100%;
+}
+
+/*********************************************************************************************
+************************************** STUDENT SCHEDULE **************************************
+*********************************************************************************************/
+
+.student-logo {
+  margin: 0 auto;
+  width: 150px;
+  padding: 25px 0 20px 0;
+}
+
+.student-logo img {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.student-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.student-login form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.student-login label {
+  font-size: 30px;
+  color: var(--primary-color);
+  margin-top: 40px;
+}
+
+.student-login input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  outline-color: var(--hover-color);
+}
+
+.student-login button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+}
+
+.student-login button:hover {
+  background-color: var(--hover-color);
+  color: #fff;
 }
 
 /*********************************************************************************************
