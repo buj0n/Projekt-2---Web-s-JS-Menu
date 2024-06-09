@@ -91,17 +91,18 @@
   .welcome-img-wrapper img {
     width: 100%;
     animation: floating 5s alternate infinite linear;
+    padding: 40px 0;
   }
+}
 
-  /********************************** Animace létajícího erbu *********************************/
+/********************************** Animace létajícího erbu *********************************/
 
-  @keyframes floating {
-    0% {
-      transform: translateY(40px);
-    }
-    100% {
-      transform: translateY(70px);
-    }
+@keyframes floating {
+  0% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(70px);
   }
 }
 
