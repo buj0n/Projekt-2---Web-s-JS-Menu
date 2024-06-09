@@ -83,15 +83,13 @@
 
   .welcome-img-wrapper {
     position: absolute;
-    bottom: 20%;
+    bottom: 10px;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 60%;
   }
 
   .welcome-img-wrapper img {
     width: 100%;
-    height: auto;
     animation: floating 5s alternate infinite linear;
   }
 
