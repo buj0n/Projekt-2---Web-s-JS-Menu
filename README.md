@@ -15,5 +15,6 @@ Projekt je organizován následujícím způsobem:
 - **plan.html**: Stránka se studijním plánem studenta.
 - **vestec.html**: Denní věštec - Novinky ze světa čar a kouzel
 - **styles.css**: Soubor se styly.
+- **query.css**: Styly pro responzivní chování webu
 - **script.js**: JavaScriptový soubor obsahující logiku responzivního menu.
 - **img/**: Adresář s obrázky projektu.
