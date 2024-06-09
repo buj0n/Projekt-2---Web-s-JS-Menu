@@ -9,12 +9,15 @@ Ze začátku jsem se chtěl držet zadání projektu, tak jak bylo na stránkác
 
 Projekt je organizován následujícím způsobem:
 
+- **img/**: Adresář s obrázky projektu.
+- **historie.html**: Stránka věnovaná historii Bradavic.
 - **index.html**: Hlavní stránka projektu.
 - **kolej.html**: Stránka popisující kolej studenta v Bradavicích. 
-- **historie.html**: Stránka věnovaná historii Bradavic.
 - **plan.html**: Stránka se studijním plánem studenta.
-- **vestec.html**: Denní věštec - Novinky ze světa čar a kouzel.
-- **styles.css**: Soubor se styly.
-- **query.css**: Styly pro responzivní chování webu
+- **query.css**: Styly pro responzivní chování webu.
 - **script.js**: JavaScriptový soubor obsahující logiku responzivního menu.
-- **img/**: Adresář s obrázky projektu.
+- **styles.css**: Soubor se styly.
+- **vestec.html**: Denní věštec - Novinky ze světa čar a kouzel.
+
+
+
