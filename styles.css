@@ -69,6 +69,32 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+/* Zlatonka :) */
+.home-up {
+  position: fixed;
+  width: 50px;
+  right: 10px;
+  bottom: 10px;
+  transform: scaleX(-1); /* Otočení obrázku na druhou stranu */
+}
+
+.home-up img {
+  width: 100%;
+  z-index: 1000;
+  animation: zlatonka 5s alternate infinite linear;
+}
+
+/* Animace zaltonky */
+
+@keyframes zlatonka {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
 /*********************************************************************************************
 ************************************ HEADER + NAVIGATION *************************************
 *********************************************************************************************/
