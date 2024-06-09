@@ -91,7 +91,8 @@
   .welcome-img-wrapper img {
     width: 100%;
     animation: floating 5s alternate infinite linear;
-    padding: 40px 0;
+    padding-top: 80px;
+    background-color: salmon;
   }
 }
 
