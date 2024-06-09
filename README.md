@@ -13,7 +13,7 @@ Projekt je organizován následujícím způsobem:
 - **kolej.html**: Stránka popisující kolej studenta v Bradavicích. 
 - **historie.html**: Stránka věnovaná historii Bradavic.
 - **plan.html**: Stránka se studijním plánem studenta.
-- **vestec.html**: Denní věštec - Novinky ze světa čar a kouzel
+- **vestec.html**: Denní věštec - Novinky ze světa čar a kouzel.
 - **styles.css**: Soubor se styly.
 - **query.css**: Styly pro responzivní chování webu
 - **script.js**: JavaScriptový soubor obsahující logiku responzivního menu.
